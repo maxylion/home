@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Roboto+Slab&display=swap');
 *{
 	font-family: 'Roboto Slab', serif;
+	color:ivory;
 }
 body {
 	margin: 0;
@@ -50,4 +51,7 @@ a:hover{
 }
 .bigtextperc {
 	font-size: 125%;
+}
+p {
+	margin: 0 10%;
 }
