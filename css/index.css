@@ -15,6 +15,9 @@ body {
 	background-color: var(--black);
 	padding: 0;
 }
+.round {
+	border-radius: 50%;
+}
 .marginzero {
 	margin: 30px auto;
 }
@@ -37,7 +40,6 @@ nav {
 	display: flex;
 }
 a{
-	font-family: 'Roboto Slab', serif;
 	margin: 0 auto;
 	padding: 5px 15px;
 	text-decoration: none;
@@ -57,6 +59,10 @@ a:hover{
 }
 .bigtext {
 	font-size: 128px;
+}
+.centerimg {display: block;
+	margin: 30px auto;
+	width: 25%;
 }
 p {
 	margin: 0 10%;
