@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Roboto+Slab&display=swap');
+:root{
+	--black: #070707ff;
+	--violet-jtc: #553555ff;
+	--eggplant: #755b69ff;
+	--cambridge-blue: #96c5b0ff;
+	--aquamarine: #adf1d2ff;
+}
 *{
 	font-family: 'Roboto Slab', serif;
 	color:ivory;
