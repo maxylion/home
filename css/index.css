@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Roboto+Slab&display=swap');
 :root{
-	--black: #070707ff;
+	--black: #070707;
 	--violet-jtc: #553555ff;
 	--eggplant: #755b69ff;
 	--cambridge-blue: #96c5b0ff;
@@ -12,7 +12,7 @@
 }
 body {
 	margin: 0;
-	background-color: gray;
+	background-color: var(--black);
 	padding: 0;
 }
 .marginzero {
@@ -31,7 +31,7 @@ body {
 nav {
 	width: 100%;
 	padding: 10px 0;
-	background: wheat;
+	background: var(--violet-jtc);
 }
 .floatdiv {
 	width: 100%;
@@ -42,18 +42,18 @@ a{
 	margin: 0 auto;
 	padding: 5px 15px;
 	text-decoration: none;
-	color: #660000;
+	color: white;
 }
 .ignorepadding {
 	padding: initial;
 	text-decoration: underline;
 }
 a:hover{
-	background-color: #660000;
+	background-color: var(--eggplant);
 	color: white;
 }
 .current {
-	background-color: #660000;
+	background-color: var(--eggplant);
 	color: white;
 }
 .bigtextperc {

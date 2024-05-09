@@ -10,10 +10,16 @@
 	margin: 30px 0 0;
 	padding:10px;
 	display: flex;
+	background-color: #553555;
+}
+.flexdircol{
 	flex-direction: column;
-	background-color: #660000;
 }
 .display * {
-	text-align: center;
+	margin: 0 auto;
+	align-self: center;
 	color: white;
+}
+.display img {
+	margin: 0 10px
 }
