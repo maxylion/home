@@ -7,7 +7,7 @@
 	--aquamarine: #adf1d2ff;
 }
 *{
-	font-family: 'Roboto Slab', serif;
+	font-family: monospace;
 	color:ivory;
 }
 body {
@@ -22,10 +22,9 @@ body {
 	color: ivory;
 }
 .bigtext {
-	font-size: 56px;
+	font-size: 128px;
 }
 .center {
-	width: 100%;
 	text-align: center;
 }
 nav {
@@ -56,9 +55,10 @@ a:hover{
 	background-color: var(--eggplant);
 	color: white;
 }
-.bigtextperc {
-	font-size: 125%;
+.bigtext {
+	font-size: 128px;
 }
 p {
 	margin: 0 10%;
+	font-size: 20px;
 }
