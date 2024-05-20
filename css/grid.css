@@ -12,6 +12,9 @@
 	display: flex;
 	background-color: #553555;
 }
+.flexdirrow {
+	flex-direction: row;
+}
 .flexdircol{
 	flex-direction: column;
 }
